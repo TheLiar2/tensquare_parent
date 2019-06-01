@@ -19,6 +19,7 @@
         <module>tensquare_rabbitmqtest</module>
         <module>tensquare_user</module>
         <module>tensquare_mqlistener</module>
+        <module>tensquare_eureka</module>
     </modules>
     <packaging>pom</packaging>
 
