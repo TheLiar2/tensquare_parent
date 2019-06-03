@@ -6,6 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.core.parameters.P;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -40,6 +41,13 @@ public class UserController {
 	@Autowired
 	private JwtUtil jwtUtil;
 
+	/*
+	* 更新好友粉丝数和用户关注数*/
+    //因为不用像前端返回东西，故void就可以
+	@RequestMapping("/updateFansFollowCount/{userid}/{friendid}/{x}")
+    public void updateFansFollowCount(@PathVariable("userid")String userid,@PathVariable("friendid")String friendid,@PathVariable("x")int x){
+		userService.updateFansFollowCount(x,userid,friendid);
+	}
 
 	/*用户登录*/
 	@RequestMapping(value = "/login",method = RequestMethod.POST)

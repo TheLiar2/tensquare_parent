@@ -2,6 +2,7 @@ package com.tensquare.qa.controller;
 import java.util.List;
 import java.util.Map;
 
+import com.tensquare.qa.client.BaseClient;
 import com.tensquare.qa.dao.ProblemDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -36,6 +37,16 @@ public class ProblemController {
 
 	@Autowired
 	private HttpServletRequest request;
+
+	@Autowired
+	private BaseClient baseClient;
+
+	/*调用base微服务的labelController*/
+	@RequestMapping(value = "/label/{id}",method = RequestMethod.GET)
+	public Result findOneById(@PathVariable("id")String id){
+		Result result = baseClient.findById(id);
+		return result;
+	}
 
 	//最新回答列表
 	@RequestMapping(value = "/newlist/{label}/{page}/{size}",method = RequestMethod.GET)
