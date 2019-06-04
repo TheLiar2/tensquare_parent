@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -23,9 +24,13 @@ public class LabelController {
     @Autowired
     private LabelService labelService;
 
+    @Autowired
+    private HttpServletRequest request;
+
     @RequestMapping(method = RequestMethod.GET)
     public Result findAll(){
-        int a = 5/0;
+        String msg = (String)request.getHeader("Authorization");
+        System.out.println(msg);
         return new Result(true, StatusCode.OK,"查询成功",labelService.findAll());
     }
 

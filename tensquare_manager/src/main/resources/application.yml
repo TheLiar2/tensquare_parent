@@ -1,0 +1,26 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: tensquare-manager
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    ip-address: true  #允许服务间跨域
+zuul:
+  routes:
+    tensquare-base:
+      path: /base/**
+      serviceId: tensquare-base
+    tensquare-user:
+      path: /user/**
+      serviceId: tensquare-user
+    tensquare-qa:
+      path: /qa/**
+      serviceId: tensquare-qa
+jwt:
+  config:
+    key: theliar
