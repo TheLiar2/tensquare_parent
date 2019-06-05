@@ -2,26 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35bcbde7-c507-4b08-8047-9a1c317ebe77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/clientimpl/BaseClientImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/tensquare_config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/controller/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/controller/LabelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/BaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/BaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/client/BaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/com/tensquare/qa/client/BaseClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_manager/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_web/target/classes/application.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,6 +50,7 @@
     <ignored path="$PROJECT_DIR$/tensquare_friend/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_manager/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_web/target/" />
+    <ignored path="$PROJECT_DIR$/tensquare_config/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +74,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_manager/pom.xml">
+        <entry file="file://$PROJECT_DIR$/tensquare_config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -83,91 +85,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensquare_web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="255">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/tensquare_user/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="477">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java">
+        <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java">
+        <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding>
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -204,25 +150,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/BaseExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/InterceptorConfig.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/Interceptor/JwtInterceptor.java" />
-        <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/config/InterceptorConfig.java" />
-        <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/Interceptor/JwtInterceptor.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/service/ProblemService.java" />
         <option value="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_article/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_qa/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/QaApplication.java" />
@@ -246,15 +181,26 @@
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/BaseClient.java" />
         <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/clientimpl/BaseClientImpl.java" />
-        <option value="$PROJECT_DIR$/tensquare_web/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" />
         <option value="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java" />
-        <option value="$PROJECT_DIR$/tensquare_manager/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java" />
+        <option value="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/tensquare_web/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/tensquare_user/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/tensquare_manager/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_config/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" />
+        <option value="$PROJECT_DIR$/tensquare_web/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_user/pom.xml" />
       </list>
     </option>
   </component>
@@ -280,9 +226,9 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -294,6 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,12 +249,50 @@
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,11 +302,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559634855267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559701918090" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16048318" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -334,10 +320,11 @@
       <recent name="com.tensquare.qa.Interceptor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_manager\src\main\resources" />
+      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_user\src\main\resources" />
+      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_web\src\main\resources" />
+      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_eureka\src\main\resources" />
       <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_common\src\main\java\util" />
-      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_user\src\main\java\com\tensquare\user\config" />
-      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent\tensquare_mqlistener\src\main\java\com\tensquare\mqlistener\utils" />
-      <recent name="F:\JetBrains\IDEA Workspace\tensquare_parent" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -356,9 +343,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19629057" />
+    <option name="contentProportion" value="0.24111283" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.BaseApplication">
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tensquare_base" />
       <extension name="coverage">
@@ -372,6 +359,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tensquare_eureka" />
       <extension name="coverage">
@@ -381,19 +381,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.eureka.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tensquare.manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.manager.ManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,19 +412,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.BaseApplication" />
-      <item itemvalue="Spring Boot.ManagerApplication" />
-      <item itemvalue="Spring Boot.WebApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManagerApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.BaseApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +466,9 @@
       <workItem from="1559445236898" duration="3600000" />
       <workItem from="1559525856164" duration="15671000" />
       <workItem from="1559572545976" duration="665000" />
-      <workItem from="1559612732372" duration="13135000" />
+      <workItem from="1559612732372" duration="20074000" />
+      <workItem from="1559651390583" duration="3451000" />
+      <workItem from="1559699208873" duration="2526000" />
     </task>
     <servers />
   </component>
@@ -507,7 +496,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180678000" />
+    <option name="totallyTimeSpent" value="193594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,10 +508,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="369" y="23" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -540,13 +529,13 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32879046" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32764506" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32879046" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Alipay DevTools" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.0784983" />
+      <window_info anchor="bottom" id="Alipay DevTools" order="15" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.42320818" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -600,116 +589,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/controller/EurekaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_parent.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/FriendApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/Interceptor/JwtInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -870,16 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/BaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/clientimpl/BaseClientImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -906,27 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager.java" />
     <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/BaseExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -934,20 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -967,27 +803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -998,13 +814,6 @@
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1026,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+        <state relative-caret-position="278">
+          <caret line="70" column="71" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
@@ -1037,6 +846,146 @@
             <element signature="e#661#662#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/BaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_rabbitmqtest/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/tensquare_config.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>

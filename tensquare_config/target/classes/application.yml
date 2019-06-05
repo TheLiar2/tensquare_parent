@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: tensquare-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/xiaokuli/tensquare_config.git
+  rabbitmq:
+    host: 192.168.25.129
+server:
+  port: 12000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    ip-address: true  #允许服务间跨域
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

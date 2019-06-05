@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      name: web
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:12000
+#      discovery:
+#        enabled: true
+#        service-id: tensquare_config
