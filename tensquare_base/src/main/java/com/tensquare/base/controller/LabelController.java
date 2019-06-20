@@ -34,6 +34,7 @@ public class LabelController {
 
     @RequestMapping(method = RequestMethod.GET)
     public Result findAll(){
+        System.out.println("新机第一次push");
         System.out.println(ip);
         String msg = (String)request.getHeader("Authorization");
         System.out.println(msg);
