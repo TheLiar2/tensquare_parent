@@ -62,7 +62,9 @@ public class ManagerFilter extends ZuulFilter {
         RequestContext currentContext = RequestContext.getCurrentContext();
         HttpServletRequest request = currentContext.getRequest();
 
-        /*？不知是啥  遇到OPTIONS方法直接放行*/
+        /*？不知是啥  遇到OPTIONS方法直接放行 OPTIONS请求是一种在get/post请求发送时前发送的一种请求
+        *   并没有携带相应的authorization认证信息，不需拦截
+        * */
         if(request.getMethod().equals("OPTIONS")){
             return null;
         }
